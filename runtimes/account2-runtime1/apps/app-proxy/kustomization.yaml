@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+patches:
+  - target:
+      name: cap-app-proxy
+      group: networking.k8s.io
+      version: v1
+      kind: Ingress
+    patch: |
+      - op: replace
+        path: /spec/ingressClassName
+        value: nginx
+      - op: replace
+        path: /spec/rules/0/host
+        value: account2-runtime1.csdp.codefresh.io

@@ -1,5 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
+images:
+  - name: quay.io/codefresh/cap-app-proxy
+    newTag: k8s-native
 patches:
   - target:
       name: cap-app-proxy

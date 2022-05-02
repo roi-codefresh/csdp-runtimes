@@ -16,6 +16,7 @@ patchesStrategicMerge:
       ingressClassName: nginx
       ingressController: k8s.io/ingress-nginx
       cluster: https://DB8EBB6B51269A736DB538F8272F96DB.yl4.us-east-1.eks.amazonaws.com
+      repo: https://github.com/roi-codefresh/csdp-runtimes.git/runtime/codefresh4
 
 patches:
   - target:

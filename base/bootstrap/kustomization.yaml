@@ -11,7 +11,6 @@ patchesStrategicMerge:
       name: codefresh-cm
     data:
       base-url: http://roi-codefresh-platform.ngrok.io
-      repo: https://github.com/roi-codefresh/csdp-runtimes
 
 patches:
   - target:

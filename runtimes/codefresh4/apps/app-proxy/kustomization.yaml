@@ -12,4 +12,4 @@ patches:
         value: nginx
       - op: replace
         path: /spec/rules/0/host
-        value: roi-codefresh-ingresshost.ngrok.io
+        value: a4ef32ee5dbca432f916f21e880d3e4b-5b622ab75624cac3.elb.us-east-1.amazonaws.com

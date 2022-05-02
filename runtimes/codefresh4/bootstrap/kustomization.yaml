@@ -12,7 +12,7 @@ patchesStrategicMerge:
     metadata:
       name: codefresh-cm
     data:
-      ingressHost: http://roi-codefresh-ingresshost.ngrok.io
+      ingressHost: https://a4ef32ee5dbca432f916f21e880d3e4b-5b622ab75624cac3.elb.us-east-1.amazonaws.com
       ingressClassName: nginx
       ingressController: k8s.io/ingress-nginx
       cluster: https://DB8EBB6B51269A736DB538F8272F96DB.yl4.us-east-1.eks.amazonaws.com

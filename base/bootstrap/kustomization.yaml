@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - https://github.com/codefresh-io/csdp-official-poc.git/csdp/hybrid?ref=v0.0.314
+  - https://github.com/codefresh-io/csdp-official-poc.git/csdp/hybrid?ref=v0.0.315
 
 patchesStrategicMerge:
   - |

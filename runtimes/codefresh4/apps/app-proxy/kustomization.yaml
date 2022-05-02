@@ -12,4 +12,4 @@ patches:
         value: nginx
       - op: replace
         path: /spec/rules/0/host
-        value: account1-runtime1.csdp.codefresh.io
+        value: roi-codefresh-ingresshost.ngrok.io

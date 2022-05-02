@@ -6,6 +6,12 @@ patches:
       - op: replace
         path: /spec/triggers/0/template/http/url
         value: http://roi-codefresh-platform.ngrok.io/2.0/api/events
+      - op: replace
+        path: /spec/triggers/1/template/http/url
+        value: http://roi-codefresh-platform.ngrok.io/2.0/api/events
+      - op: replace
+        path: /spec/triggers/2/template/http/url
+        value: http://roi-codefresh-platform.ngrok.io/2.0/api/events
     target:
       group: argoproj.io
       version: v1alpha1
